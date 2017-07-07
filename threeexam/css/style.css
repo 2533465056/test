@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width:100%;
+	height:100%;
+}
+
+.wrap{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction:column;
+	background: #F3F3FE;
+}
+header{
+	width:100%;
+	height:40px;
+	display: flex;		
+	color: #9E9E9E;
+	background: #fff;
+	}
+b{
+	flex:1;
+	text-align: center;
+	line-height: 40px;
+}
+a{
+	text-decoration: none;
+	color: blue;
+	display: inline-block;
+	height: 38px
+}
+.bg{
+	border-bottom: 2px solid #748EF7;
+	color: #748EF7;	
+}
+main{
+	width: 100%;
+	flex:1;
+	height: auto;
+	background: #fff;
+	margin-top: 7px;
+}
+.content{
+	width:92%;
+	height: 89px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	margin: 10px auto;
+}
+.top{
+	width: 100%;
+	height: 53px;
+	position: relative;
+	color: #fff;
+}
+	
+.content .top img{
+	width: 16px;
+	position: absolute;
+	left: 5%;
+	top: 11px;
+}
+.content h3{
+	font-size: 36px;
+	position: absolute;
+	left: 13%;
+	top: 3px;	
+}
+.content h4{
+	font-size: 21px;
+	position: absolute;
+ 	right: 4%;
+	top: 15px;
+}
+.bottom img{
+	width: 14px;
+	float: left;
+	margin-left: 5%;
+	margin-top: 5px;
+}
+.ps{
+	float: left;
+	font-size: 8px;
+	margin-left: 2%;
+}
+p:nth-child(1){
+	color: blue;
+
+}
+.red{
+	background: red;
+	border-top-left-radius:10px; 
+	border-top-right-radius:10px;
+}
+.green{
+	background: green;
+	border-top-left-radius:10px; 
+	border-top-right-radius:10px;
+}
+.blue{
+	background: blue;
+	border-top-left-radius:10px; 
+	border-top-right-radius:10px;
+}
+.pink{
+	background: pink;
+	border-top-left-radius:10px; 
+	border-top-right-radius:10px;
+}
